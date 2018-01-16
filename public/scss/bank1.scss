@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'jlight';
+  src: url("../fonts/jlight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'jregular';
+  src: url("../fonts/jregular.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'jbold';
+  src: url("../fonts/jbold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: jregular;
+}
+
+#left-side {
+  width: 25%;
+}
+
+#right-side {
+  width: 75%;
+}
+
+.button {
+  width: 23%;
+  border-radius: 15px;
+}

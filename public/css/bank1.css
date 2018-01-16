@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'jlight';
+  src: url("../fonts/jlight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'jregular';
+  src: url("../fonts/jregular.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'jbold';
+  src: url("../fonts/jbold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal; }
+body {
+  font-family: jregular;
+  background: linear-gradient(to right, blue, red);
+}
+
+#top {
+  height: 20%;
+  width: 100%;
+}
+
+#left-side {
+  margin-top: 20%;
+  width: 25%;
+  height: 80%;
+}
+
+#right-side {
+  width: 75%;
+  height: 80%;
+}
+
+.button {
+  margin: 3%;
+  width: 80%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: rgba(9, 71, 201, 0.85);
+  font-size: .8em;
+  text-align: center;
+}
+
+img {
+  width: 30%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+h2 {
+  margin-top: 5%;
+}
+
+#menu {
+  font-size: .9em;
+  margin-left: 15%;
+}
+
+#banks {
+  font-size: 1em;
+  margin-left: 8%;
+}
+
+#welcome {
+  font-size: .9em;
+  margin-left: 5%;
+}
+
+.it {
+  width: 110%;
+  margin-left: 20%;
+}
+
+#top {
+  margin-left: 5%;
+}
+
+@media screen and (min-width: 521px) {
+  #left-side {
+    margin-left: -48%;
+    width: 25%;
+  }
+  #menu {
+    font-size: 2em;
+    margin-left: 12%;
+  }
+  #banks {
+    font-size: 1.3em;
+  }
+  #welcome {
+    font-size: 1.3em;
+  }
+
+@media screen and (min-width: 580px) {
+  #left-side {
+    width: 30%;
+    margin-left: -40%;
+  }
+  #right-side {
+    margin-top: -70%;
+    width: 70%;
+  }
+  .button {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 612px) {
+  #right-side {
+    margin-top: -60%;
+  }
+}  
+  
+@media screen and (min-width: 677px) {
+  #right-side {
+    margin-top: 5%;
+  }
+}  
+  
+@media screen and (min-width: 825px) {
+  #left-side {
+    margin-left: 0%;
+  }
+  #menu {
+    font-size: 3em;
+  }
+  #welcome {
+    font-size: 2em;
+  }
+  #banks {
+    font-size: 2em;
+  }
+}  
+  
+@media screen and (min-width: 926px) {
+  .button {
+    width: 25%;
+  }
+  .it {
+    width: 80%;
+  }
+  #left-side {
+    margin-top: 10%;
+  }
+  #right-side {
+    margin-top: 3%;
+  }
+  .up {
+    margin-top: -10%;
+  }
+  #thing {
+    margin-right: -59%;
+  }
+}  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
+/*# sourceMappingURL=bank1.css.map */
